@@ -11,12 +11,14 @@ import Donate from "./pages/donate";
 import Gallery from "./pages/gallery";
 import GetInvolved from "./pages/GetInvolved";
 import Impact from "./pages/impact";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   
   return (
     <>
+    <ScrollToTop />
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>} />
