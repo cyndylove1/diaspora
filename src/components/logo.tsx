@@ -10,7 +10,7 @@ export default function Logo() {
           className="w-full h-full object-cover"
         />
       </div>
-      <span className="font-bold text-white text-base tracking-tight hidden lg:inline-block">
+      <span className="font-bold text-white text-base tracking-tight inline-block">
         DIP Africa
       </span>
     </div>
