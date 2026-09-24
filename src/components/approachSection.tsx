@@ -6,7 +6,6 @@ import {
   Heart,
   Users,
   Compass,
-  Award,
   ShieldCheck,
   Zap,
   Globe,

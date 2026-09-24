@@ -1,20 +1,5 @@
-import {
-  Check,
-  Target,
-  Eye,
-  Heart,
-  Shield,
-  Award,
-  Sparkles,
-  Globe2,
-} from "lucide-react";
-
-import aboutHeroImg from "../../assets/about.jpeg";
-import introSectionImg from "../../assets/pexels-akh-taufiq-202388902-15311442.jpg";
-import missionVisionImg from "../../assets/vecteezy_hands-holding-plant-environmental-protection-concept_73062270.jpg";
 import Banner from "../../components/banner";
 import AboutSection from "../../components/aboutsection";
-import ApproachValuesSection from "../../components/approachSection";
 import ApproachSection from "../../components/approachSection";
 
 export default function AboutPage() {
