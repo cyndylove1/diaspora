@@ -77,7 +77,7 @@ export default function WhatWeDo() {
         </div>
     </div>
     </section>
-    <section className="bg-[#FAF9F6] px-4 py-16 md:px-6 lg:px-16 lg:py-24">
+    <section className="bg-gradient-to-br from-[#EAF5EE] via-[#DCEFE3] to-[#CBE5D4] px-4 py-16 md:px-6 lg:px-16 lg:py-24">
       <div className="mx-auto max-w-7xl">
 
         {/* Section Header */}
