@@ -165,7 +165,7 @@ export default function Footer() {
           {/* Resources */}
           <div className="lg:col-span-2">
             <h4 className="mb-6 text-xs font-bold uppercase tracking-[0.2em] text-white">
-              Resources
+              others
             </h4>
 
             <ul className="space-y-4 text-sm">
