@@ -87,7 +87,7 @@ export default function ImpactMetrics() {
       id="impact"
       className="py-12 bg-white px-4 sm:px-6 lg:px-8"
     >
-      <div className="max-w-5xl mx-auto bg-emerald-700 rounded-[2rem] p-8 sm:p-12 lg:p-16">
+      <div className="max-w-7xl mx-auto bg-emerald-700 rounded-[2rem] p-8 sm:p-12 lg:p-16">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 text-center">
           {metrics.map((item, idx) => (
             <div

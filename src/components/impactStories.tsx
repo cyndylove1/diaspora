@@ -34,7 +34,7 @@ export default function ImpactStories() {
   ];
 
   return (
-    <section className="bg-gray-50 pt-16 pb-24 px-6 sm:px-10 lg:px-16">
+    <section className="bg-gray-50 pt-16 pb-24 px-4 md:px-6 lg:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-12 sm:mb-16">

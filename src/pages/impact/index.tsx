@@ -9,17 +9,17 @@ export default function Impact() {
   const getSizeClasses = (size: ImpactImage["size"]) => {
     switch (size) {
       case "featured":
-        return "col-span-1 md:col-span-2 row-span-2";
+        return "col-span-2 md:col-span-2 row-span-3";
 
       case "tall":
         return "col-span-1 row-span-2";
 
       case "wide":
-        return "col-span-1 md:col-span-2 row-span-1";
+        return "col-span-1 md:col-span-2 row-span-3";
 
       case "standard":
       default:
-        return "col-span-1 row-span-1";
+        return "col-span-1 row-span-";
     }
   };
 
@@ -34,7 +34,7 @@ export default function Impact() {
     />
 
       {/* Gallery */}
-      <section className="min-h-screen px-6 py-16 sm:px-10 lg:px-16">
+      <section className="min-h-screen px-4 py-16 md:px-6 lg:px-16">
         <div className="mx-auto max-w-7xl">
           
           {/* Section Heading */}
@@ -55,7 +55,7 @@ export default function Impact() {
           </div>
 
           {/* Asymmetric Gallery */}
-          <div className="grid auto-rows-[240px] grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          <div className="grid auto-rows-[240px] grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
             {IMPACT_IMAGES.map((image) => (
               <article
                 key={image.id}
@@ -65,11 +65,14 @@ export default function Impact() {
                 )}`}
               >
                 {/* Image */}
-                <img
-                  src={image.src}
-                  alt={image.alt || "Impact gallery image"}
-                  className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                />
+                {/* Image */}
+<img
+  src={image.src}
+  alt={image.alt || "Impact gallery image"}
+  className="absolute inset-0 h-full w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+/>
+                
+                
 
                 {/* Dark Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950 via-emerald-950/20 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-95" />

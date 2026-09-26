@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
-import changemakersImg from "../assets/pexels-rdne-6646779.jpg";
-import supportImg from "../assets/pexels-akh-taufiq-202388902-15311442.jpg";
+import changemakersImg from "../assets/impact39.jpeg";
+import supportImg from "../assets/impact24.jpeg";
 import Button from "./button";
 import { Link } from "react-router-dom";
 
@@ -18,8 +18,8 @@ export default function JoinUs() {
   ];
 
   return (
-    <section className=" bg-white py-16 sm:py-24 px-6 sm:px-10 lg:px-16 overflow-hidden">
-      <div className="max-w-5xl bg-[#143a22] mx-auto space-y-20 lg:space-y-28 p-14 rounded-2xl">
+    <section className=" bg-white py-16 sm:py-24 px-4 md:px-6 lg:px-16 overflow-hidden">
+      <div className="max-w-7xl bg-[#143a22] mx-auto space-y-20 lg:space-y-28 md:p-14 p-6 rounded-2xl">
         {/* Section 1: Text Left / Image Right */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Text Block */}

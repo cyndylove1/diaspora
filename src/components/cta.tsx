@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function CTA() {
   return (
-    <section className="py-8 sm:py-24 bg-[#FAF9F6] relative overflow-hidden">
+    <section className="pb-8 lg:py-24 bg-[#FAF9F6] relative overflow-hidden">
       <div className="">
         {/* Main CTA Card */}
         <div className="group relative w-full overflow-hidden shadow-xl border border-white/20 transition-all duration-500 hover:shadow-2xl">

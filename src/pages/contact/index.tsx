@@ -5,6 +5,7 @@ import { FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { FaSquareTwitter, FaSquareInstagram } from "react-icons/fa6";
 import Banner from "../../components/banner";
 import Button from "../../components/button";
+import LocationMap from "../../components/locationMap";
 
 interface ContactSectionProps {
   heroTitle?: string;
@@ -44,14 +45,14 @@ export default function Contact({
         description="Have questions, partnership ideas, or want to get involved? Reach out to our team today and help us drive lasting change across Africa."
       />
       {/* 1. HERO BANNER SECTION */}
-      <section className="py-16 md:py-24 px-6 sm:px-10 lg:px-16 overflow-hidden">
+      <section className="py-16 md:py-24 px-4 md:px-6 lg:px-16 overflow-hidden">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Hero Title */}
           <div className="lg:col-span-6 space-y-4">
             {/* <span className="inline-block bg-[#0D2B3A]/10 text-[#0D2B3A] text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider">
               Contact Us
             </span> */}
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0D2B3A] leading-tight tracking-tight">
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold text-[#0D2B3A] leading-tight tracking-tight">
               {heroTitle}
             </h1>
             <p className="text-[#555048] text-base sm:text-lg max-w-xl leading-relaxed">
@@ -75,10 +76,11 @@ export default function Contact({
       </section>
 
       {/* 2. FORM & CONTACT DETAILS SECTION */}
-      <section className="max-w-7xl bg-gradient-to-br from-[#EAF5EE] via-[#DCEFE3] to-[#CBE5D4]  mx-auto py-20 px-6 sm:px-10 lg:px-16">
+      <section className="bg-gradient-to-br from-[#EAF5EE] via-[#DCEFE3] to-[#CBE5D4]">
+        <div className="max-w-7xl mx-auto py-20 px-4 md:px-6 lg:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           {/* Left Column: Interactive Contact Form */}
-          <div className="lg:col-span-6 bg-white p-8 sm:p-10 rounded-3xl border border-black/5 shadow-xl hover:shadow-2xl transition-all duration-300">
+          <div className="lg:col-span-6 bg-white p-6 sm:p-10 rounded-3xl border border-black/5 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center gap-3 mb-6">
               <div className="p-3 bg-[#0D2B3A]/10 rounded-2xl text-[#0D2B3A]">
                 <MessageSquare className="w-6 h-6" />
@@ -261,7 +263,9 @@ export default function Contact({
             </div>
           </div>
         </div>
+      </div>
       </section>
+      <LocationMap/>
     </div>
   );
 }

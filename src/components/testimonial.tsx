@@ -18,16 +18,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="relative py-20 lg:py-28 px-6 sm:px-10 lg:px-16 bg-gradient-to-b from-[#EAF5EE] via-[#E6F3EB] to-[#DCEFE3] text-white overflow-hidden">
-      {/* Background Image Layer */} 
-      {/* <div className="absolute inset-0 z-0">
-        <img
-          src=
-          alt="Background overlay"
-          className="w-full h-full object-cover opacity-15 filter grayscale mix-blend-luminosity"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#041E14] via-[#041E14]/95 to-[#041E14]" />
-      </div> */}
+    <section className="relative py-20 lg:py-28 px-4 md:px-6 lg:px-16 bg-gradient-to-b from-[#EAF5EE] via-[#E6F3EB] to-[#DCEFE3] text-white overflow-hidden">
 
       {/* Decorative Emerald Rays & Glows */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] pointer-events-none" />

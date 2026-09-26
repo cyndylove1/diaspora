@@ -8,7 +8,7 @@ export default function WhoWeAre() {
   return (
     <section
       id="about"
-      className="relative py-16 sm:py-24 px-6 sm:px-10 lg:px-16 overflow-hidden bg-gradient-to-br from-[#EAF5EE] via-[#DCEFE3] to-[#CBE5D4]"
+      className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-16 overflow-hidden bg-gradient-to-br from-[#EAF5EE] via-[#DCEFE3] to-[#CBE5D4]"
     >
       {/* Background Colorful Gradient Blobs */}
       <div className="absolute top-1/2 -left-20 w-96 h-96 bg-[#2B7044]/15 rounded-full blur-3xl pointer-events-none -translate-y-1/2" />

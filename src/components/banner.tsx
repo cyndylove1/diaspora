@@ -14,7 +14,7 @@ const Banner: React.FC<BannerProps> = ({
   description,
 }) => {
   return (
-    <section className="relative min-h-[400px] py-20 overflow-hidden bg-gradient-to-b from-[#F2F8F4] via-[#E6F3EB] to-[#a5d0bf] ">
+    <section className="relative min-h-[400px] py-24 overflow-hidden bg-gradient-to-b from-[#F2F8F4] via-[#E6F3EB] to-[#a5d0bf] ">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_0%,#e7f1ec_0%,#d8e9e1_45%,#c3e5d7_100%)]" />
 

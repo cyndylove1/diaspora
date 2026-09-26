@@ -33,7 +33,7 @@ export default function Footer() {
       <div className="absolute -top-40 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-emerald-700/10 blur-3xl" />
       <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-[#D4AF37]/5 blur-3xl" />
 
-      <div className="relative mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
+      <div className="relative mx-auto max-w-7xl px-4 md:px-6 lg:px-10">
         {/* Main Footer */}
         <div className="grid grid-cols-1 gap-12 border-b border-white/10 py-16 md:grid-cols-2 lg:grid-cols-12 lg:gap-10">
           

@@ -21,7 +21,7 @@ export default function AboutSection({
   imageRightUrl = about2,
 }: AboutSectionProps) {
   return (
-    <section className="bg-[#FAF9F6] py-16 md:py-24 px-6 sm:px-10 lg:px-16 overflow-hidden">
+    <section className="bg-[#FAF9F6] py-16 md:py-24 px-4 md:px-6 lg:px-16 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
         {/* Left Column: Text Content */}
         <div className="lg:col-span-6 flex flex-col items-start justify-center">

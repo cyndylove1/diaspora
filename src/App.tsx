@@ -12,6 +12,9 @@ import Gallery from "./pages/gallery";
 import GetInvolved from "./pages/GetInvolved";
 import Impact from "./pages/impact";
 import ScrollToTop from "./components/ScrollToTop";
+import Leadership from "./pages/leadership";
+import Partnership from "./pages/partnership";
+import WhatWeDo from "./pages/whatWeDo";
 
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/get-involved" element={<GetInvolved />} />
         <Route path="/impact" element={<Impact />} />
+        <Route path="/leadership" element={<Leadership />} />
+        <Route path="/partnership" element={< Partnership/>} />
+        <Route path="/what-we-do" element={<WhatWeDo/>} />
       </Routes>
       <CTA/>
       <Footer />

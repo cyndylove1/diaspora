@@ -9,11 +9,11 @@ export default function Gallery() {
   const getSizeClasses = (size: GalleryImage["size"]) => {
     switch (size) {
       case "featured":
-        return "col-span-1 md:col-span-2 row-span-2";
+        return "col-span-1 md:col-span-2 row-span-3";
       case "tall":
         return "col-span-1 row-span-2";
       case "wide":
-        return "col-span-1 md:col-span-2 row-span-1";
+        return "col-span-1 md:col-span-2 row-span-3";
       case "standard":
       default:
         return "col-span-1 row-span-1";
@@ -31,7 +31,7 @@ export default function Gallery() {
 
       <div className="max-w-7xl bg-[#FAF9F6] py-16 px-6 sm:px-10 lg:px-16 min-h-screen text-[#111827] mx-auto">
         {/* Asymmetric Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[240px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[240px]">
           {GALLERY_IMAGES.map((image) => (
             <div
               key={image.id}

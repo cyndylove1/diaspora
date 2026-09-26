@@ -24,7 +24,7 @@ export default function ApproachValuesSection({
   missionVisionImageUrl = approach2,
 }: ApproachValuesProps) {
   return (
-    <div className="bg-gradient-to-br from-[#EAF5EE] via-[#DCEFE3] to-[#CBE5D4] py-20 px-6 sm:px-10 lg:px-16 space-y-24 overflow-hidden text-[#111827]">
+    <div className="bg-gradient-to-br from-[#EAF5EE] via-[#DCEFE3] to-[#CBE5D4] py-20 px-4 md:px-6 lg:px-16 space-y-24 overflow-hidden text-[#111827]">
       {/* 1. OUR APPROACH SECTION */}
       <section className="max-w-7xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-12">
