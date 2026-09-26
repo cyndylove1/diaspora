@@ -60,7 +60,7 @@ const Banner: React.FC<BannerProps> = ({
         </div>
 
         {/* Heading */}
-        <h1 className="max-w-3xl text-3xl font-medium leading-[1.05] tracking-[-0.035em] text-[#003c31] sm:text-6xl md:text-7xl lg:text-5xl pt-4">
+        <h1 className="max-w-3xl text-3xl font-medium leading-[1.05] tracking-[-0.035em] text-[#003c31] lg:text-5xl xl:text-6xl lg:text-5xl pt-4">
           {title}{" "}
           {highlightedText && (
             <span className="text-[#006045]">{highlightedText}.</span>

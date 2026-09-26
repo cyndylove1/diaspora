@@ -56,7 +56,6 @@ import impact7 from "../assets/impact7.jpeg";
 import impact8 from "../assets/impact8.jpeg";
 import impact9 from "../assets/impact9.jpeg";
 import impact10 from "../assets/impact10.jpeg";
-import impact11 from "../assets/impact11.jpeg";
 import impact12 from "../assets/impact12.jpeg";
 import impact13 from "../assets/impact13.jpeg";
 import impact14 from "../assets/impact14.jpeg";

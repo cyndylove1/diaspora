@@ -63,7 +63,7 @@ export default function Contact({
 
           {/* Right Hero Image Card (Slots for photo) */}
           <div className="lg:col-span-6 relative">
-            <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[16/10] group">
+            <div className="relative h-[300px] md:h-[400px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white group">
               <img
                 src={heroImageUrl}
                 alt="Diaspora Team"

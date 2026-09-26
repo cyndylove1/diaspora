@@ -244,7 +244,7 @@ export default function Footer() {
                     }
                     placeholder="Enter your email"
                     required
-                    className="w-full rounded-xl border border-gray-300 bg-white py-3 pl-10 pr-4 text-xs text-[#1a1a1a] outline-none transition-all placeholder:text-gray-600 focus:border-[#D4AF37]/60 focus:ring-1 focus:ring-[#D4AF37]/20"
+                    className="w-full rounded-xl border border-gray-300 bg-white py-3 pl-10 pr-4 text-xs text-[#1a1a1a] outline-none transition-all placeholder:text-gray-600 focus:border-emerald-700 focus:ring-1 focus:ring-[#D4AF37]/20"
                   />
                 </div>
 
