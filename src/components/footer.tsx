@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import footerlogo from "../assets/women.jpg"
 import {
   Send,
   ArrowUpRight,
@@ -272,6 +273,21 @@ export default function Footer() {
             © 2026 Diaspora International Platform for Africa.
             <span className="hidden sm:inline"> All Rights Reserved.</span>
           </p>
+          <div className="flex items-center gap-2">
+            <div className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full overflow-hidden shrink-0 bg-white ">
+              <img
+                src={footerlogo}
+                alt="Diaspora Team"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-gray-200">
+                Women Federation for World Peace
+              <span className="hidden sm:inline"> All Rights Reserved.</span>
+            </p>
+
+          </div>
+          
 
           <div className="flex items-center gap-6">
             <a
