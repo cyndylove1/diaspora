@@ -63,7 +63,7 @@ export default function Footer() {
                   <MapPin className="h-4 w-4"/>
                 </div>
                 
-                <span>Connecting Africa to the Global Diaspora</span>
+                <span>22936 Fleet Terrace Sterling, VA 20166 United States.</span>
               </div>
             </div>
 
